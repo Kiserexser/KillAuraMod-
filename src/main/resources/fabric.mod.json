@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "killaura",
+  "version": "1.0.0",
+  "name": "KillAura",
+  "description": "Undetectable KillAura",
+  "authors": ["Swill"],
+  "entrypoints": {
+    "client": ["com.swill.killaura.KillAuraMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.20.4",
+    "fabric-api": "*"
+  }
+}

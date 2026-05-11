@@ -3,8 +3,6 @@
   "id": "killaura",
   "version": "1.0.0",
   "name": "KillAura",
-  "description": "Undetectable KillAura",
-  "authors": ["Swill"],
   "entrypoints": {
     "client": ["com.swill.killaura.KillAuraMod"]
   },

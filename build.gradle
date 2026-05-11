@@ -1,15 +1,7 @@
-buildscript {
-    repositories {
-        maven {
-            url = "https://maven.fabricmc.net/"
-        }
-    }
-    dependencies {
-        classpath "net.fabricmc:fabric-loom:1.7.4"
-    }
+plugins {
+    id 'fabric-loom' version '1.7.4'
+    id 'java'
 }
-
-apply plugin: "fabric-loom"
 
 version = "1.0.0"
 group = "com.swill.killaura"
@@ -21,7 +13,12 @@ base {
 repositories {
     mavenCentral()
     maven {
+        name = "Fabric"
         url = "https://maven.fabricmc.net/"
+    }
+    maven {
+        name = "Minecraft Libraries"
+        url = "https://libraries.minecraft.net/"
     }
 }
 
